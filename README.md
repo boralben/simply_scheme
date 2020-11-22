@@ -7,3 +7,6 @@ These files will be written using [Chicken Scheme](https://www.call-cc.org/) ver
 
 ## Helper Files
 I couldn't get the FTP connection provided in Appendix A to connect, but then I found a [downloads directory](https://people.eecs.berkeley.edu/~bh/downloads/simply/) with the files.
+
+## Init File
+All the solutios in this directory depend on `~/.csirc` loading `helper_files/simply.scm`. ([docs](https://wiki.call-cc.org/man/4/Using%20the%20interpreter#init-file))

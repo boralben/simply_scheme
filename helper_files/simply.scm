@@ -42,10 +42,7 @@
 	(cons cons)
 	(map map)
 	(apply apply))
-    (define (error-printform x)
-      (if (string? x)
-	  (string-append "\"" x "\"")
-	  x))
+    (define (error-printform x) x)
     (lambda (string . args)
       (apply error (cons string (map error-printform args))))))
 
