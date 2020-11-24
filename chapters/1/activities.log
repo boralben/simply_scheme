@@ -1,0 +1,5 @@
+(load "chapters/1/scratchpad.scm")
+; loading chapters/1/scratchpad.scm ...
+#;2> (acronym '(Ben is learning scheme))
+"Bils"
+#;3> (exit)
